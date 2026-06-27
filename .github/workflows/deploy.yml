@@ -11,9 +11,11 @@
 # before shifting all traffic.
 name: Deploy
 
+# Manual trigger only. The Azure steps need AZURE_CREDENTIALS, ACR_NAME and
+# ANTHROPIC_API_KEY secrets to be configured first; run this from the Actions tab
+# once they're set.
 on:
-  push:
-    branches: [main]
+  workflow_dispatch:
 
 jobs:
   # Re-run the CI checks as a gate before anything is built or deployed.
