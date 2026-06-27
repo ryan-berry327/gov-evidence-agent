@@ -1,0 +1,50 @@
+[
+  {
+    "question": "How much annual leave does a civil servant start with?",
+    "relevant_doc_ids": ["csleave"],
+    "expected_facts": ["25 days", "minimum"],
+    "answerable": true
+  },
+  {
+    "question": "What is the maximum annual leave entitlement and how is it reached?",
+    "relevant_doc_ids": ["csleave"],
+    "expected_facts": ["30 days", "one day", "year of service"],
+    "answerable": true
+  },
+  {
+    "question": "What employer pension contribution rate does the Civil Service pay?",
+    "relevant_doc_ids": ["cspension"],
+    "expected_facts": ["28.97%"],
+    "answerable": true
+  },
+  {
+    "question": "Is the Civil Service pension defined benefit or defined contribution?",
+    "relevant_doc_ids": ["cspension"],
+    "expected_facts": ["defined benefit"],
+    "answerable": true
+  },
+  {
+    "question": "How many years of UK residency does SC clearance normally require?",
+    "relevant_doc_ids": ["scvetting"],
+    "expected_facts": ["five years"],
+    "answerable": true
+  },
+  {
+    "question": "What proportion of working time must be spent at the principal workplace?",
+    "relevant_doc_ids": ["homeworking"],
+    "expected_facts": ["60%"],
+    "answerable": true
+  },
+  {
+    "question": "Can AI-generated text be submitted as my own experience in an application?",
+    "relevant_doc_ids": ["aiguidance"],
+    "expected_facts": ["plagiarism", "own experience"],
+    "answerable": true
+  },
+  {
+    "question": "What is the annual salary cap for the Senior Civil Service?",
+    "relevant_doc_ids": [],
+    "expected_facts": [],
+    "answerable": false
+  }
+]
