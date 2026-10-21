@@ -22,8 +22,7 @@ an API model in production, behind one interface with no changes to the agent.
    the build on quality regression.
 5. **Deploy & monitor** — containerised, deployed to Azure Container Apps via
    Terraform, instrumented with OpenTelemetry into Application Insights.
-6. **CI/CD** — GitHub Actions: tests + eval gate on every push; build, push and
-   `terraform apply` on main.
+6. **CI/CD** — GitHub Actions: tests + eval gate on every push; a manual deploy workflow builds, pushes and runs terraform apply. 
 
 ---
 
